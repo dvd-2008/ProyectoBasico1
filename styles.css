@@ -1,0 +1,93 @@
+/* Estilos para el sidebar */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    margin-left: 200px; /* Ajustar según el ancho del sidebar */
+    padding: 20px;
+}
+
+/* Mostrar la tabla de productos al hacer clic en "Productos" */
+.productos-table {
+    display: none;
+}
+
+.productos-table.show {
+    display: block;
+}
+
+
+/* Estilos para el fondo de la página */
+
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #343a40; /* Fondo del contenedor en negro o gris oscuro */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Sombra ligeramente blanca para resaltar */
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* Color de texto blanco */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Fondo blanco para los campos de entrada */
+    color: #333; /* Color de texto oscuro */
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Botón azul */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+.login-container p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-container a {
+    color: #007bff; /* Color de enlace azul */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
